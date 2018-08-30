@@ -1,0 +1,13 @@
+# service name and
+# uri for the config server with default profile
+spring:
+  application:
+    name: licensingservice
+  profiles:
+    active:
+      dev
+  cloud:
+    config:
+      uri:  http://localhost:8888
+server:
+  port: 8889
